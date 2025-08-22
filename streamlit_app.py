@@ -9,7 +9,7 @@ st.write(
   """
 )
 
-cnx = st.conecction("snowflake")
+cnx = st.connection("snowflake")
 session = cnx.session()
 
 
